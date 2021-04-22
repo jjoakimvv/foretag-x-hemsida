@@ -301,6 +301,7 @@ F&#246;nsterputsning, Flyttst&#228;dning, Varberg" />
 </ul>
 
 <p><a href="Om-Katarinas-stadtjans/81/Kort_om_Katarinas_Stadtjanst.html" target="_self">L&auml;s mer om hur vi jobbar</a></p>
+
 </div>
                 <div class="col-lg-6">
                     <div class="reference-box">
@@ -323,6 +324,28 @@ F&#246;nsterputsning, Flyttst&#228;dning, Varberg" />
             </div>
         </div>
     </div>
+
+    <script>!(function () {
+        let e = document.createElement("script"),
+          t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+          "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+          (e.async = !0),
+          (e.onload = () => {
+            window.WebChat.default(
+              {
+                initPayload: '/greet',
+                customData: { language: "en" },
+                socketUrl: "http://127.0.0.1:5500/www.katarinasstad.se/index.html",
+                // add other props here
+              },
+              null
+            );
+          }),
+          t.insertBefore(e, t.firstChild);
+      })();
+      </script>
+
 </main>
 
 
