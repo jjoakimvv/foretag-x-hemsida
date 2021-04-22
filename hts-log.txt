@@ -1,0 +1,20 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 22 Apr 2021 14:35:55 at https://www.katarinasstad.se/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f0#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.katarinasstad.se/ -O1 "C:\My Web Sites\Clone" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:36:15	Error: 	"Not Found" (404) at link https://www.katarinasstad.se/Content/Images/Ico/favicon.ico (from https://www.katarinasstad.se/)
+14:36:16	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://fast.fonts.net/t/1.css?apiType=css&projectid=c84206e8-b707-437f-a658-7d16251648d5
+14:36:28	Error: 	"Not Found" (404) at link https://www.katarinasstad.se/Content/Scripts/modernizr-flexbox.js (from https://www.katarinasstad.se/)
+14:36:38	Error: 	"Not Found" (404) at link https://www.katarinasstad.se/Content/Font/Webkit/1d3191cd-ae8c-45e2-bb04-11e96d8fa974.woff2 (from https://www.katarinasstad.se/Content/Styles/application.css?Date=20180327)
+14:36:38	Error: 	"Not Found" (404) at link https://www.katarinasstad.se/Content/Font/Webkit/a0f222f7-39b4-41c9-a5c0-0b9b7e6b8f89.woff2 (from https://www.katarinasstad.se/Content/Styles/application.css?Date=20180327)
+14:36:38	Error: 	"Not Found" (404) at link https://www.katarinasstad.se/Content/Font/Webkit/d9896899-f08c-4750-a874-a9e10d83c2cb.woff2 (from https://www.katarinasstad.se/Content/Styles/application.css?Date=20180327)
+14:36:38	Error: 	"Not Found" (404) at link https://www.katarinasstad.se/Content/Font/Webkit/b76ff444-27dd-4494-b96e-2f5157f347d5.woff2 (from https://www.katarinasstad.se/Content/Styles/application.css?Date=20180327)
+14:36:38	Error: 	"Not Found" (404) at link https://www.katarinasstad.se/Content/Font/Webkit/e2d37f34-6bca-473c-b64d-93811f4dc046.woff2 (from https://www.katarinasstad.se/Content/Styles/application.css?Date=20180327)
+14:36:38	Error: 	"Not Found" (404) at link https://www.katarinasstad.se/Content/Font/Webkit/0db19ee1-b74a-4eb6-b48f-60c7047ea44b.woff2 (from https://www.katarinasstad.se/Content/Styles/application.css?Date=20180327)
+
+HTTrack Website Copier/3.49-2 mirror complete in 44 seconds : 99 links scanned, 90 files written (4944673 bytes overall) [3946191 bytes received at 89686 bytes/sec], 1634005 bytes transferred using HTTP compression in 35 files, ratio 36%
+(8 errors, 1 warnings, 0 messages)
